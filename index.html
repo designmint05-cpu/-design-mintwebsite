@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#050807">
+<meta name="description" content="Design Mint — premium posters, thumbnails, promotional creatives and social media designs.">
+<title>Design Mint — Creative Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#" data-page="home" aria-label="Design Mint home">
+      <img src="assets/logo.png" alt="Design Mint logo">
+      <span class="brand-caption">CREATIVE STUDIO</span>
+    </a>
+    <div class="side-label">WORKSPACE</div>
+    <nav class="nav-list" aria-label="Main navigation">
+      <button class="nav-item active" data-page="home"><span class="nav-icon">⌂</span><span>Home</span></button>
+      <button class="nav-item" data-page="portfolio"><span class="nav-icon">▦</span><span>Portfolio</span><span class="nav-count">07</span></button>
+      <button class="nav-item" data-page="services"><span class="nav-icon">✳</span><span>Services</span></button>
+      <button class="nav-item" data-page="pricing"><span class="nav-icon">₹</span><span>Starter Pricing</span></button>
+      <button class="nav-item" data-page="about"><span class="nav-icon">◉</span><span>About</span></button>
+      <button class="nav-item" data-page="contact"><span class="nav-icon">↗</span><span>Contact</span></button>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="availability"><span class="pulse"></span><div><strong>Open for projects</strong><small>Taking new enquiries</small></div></div>
+      <a class="insta-button" href="https://www.instagram.com/design_mint.in/" target="_blank" rel="noopener"><span class="insta-mark">◎</span> Follow on Instagram <span>↗</span></a>
+      <small class="copyright">© 2026 DESIGN MINT</small>
+    </div>
+  </aside>
+
+  <main class="main-area">
+    <header class="topbar">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      <div class="breadcrumb"><span>DESIGN MINT</span><b>/</b><span id="crumbCurrent">HOME</span></div>
+      <a class="top-instagram" href="https://www.instagram.com/design_mint.in/" target="_blank" rel="noopener">INSTAGRAM <span>↗</span></a>
+    </header>
+
+    <section class="page active-page" id="page-home">
+      <div class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> INDEPENDENT DESIGN STUDIO</div>
+          <h1>Make your brand<br>impossible to <em>ignore.</em></h1>
+          <p class="hero-text">Scroll-stopping thumbnails, bold promotional posters and social creatives built to make your work stand out.</p>
+          <div class="hero-actions">
+            <button class="button primary" data-go="portfolio">Explore the work <span>↗</span></button>
+            <button class="button secondary" data-go="contact">Start a project</button>
+          </div>
+          <div class="hero-proof"><div class="proof-avatars"><span>D</span><span>M</span><span>+</span></div><p><strong>Design that gets noticed.</strong><br><small>Made with purpose, not templates.</small></p></div>
+        </div>
+        <div class="hero-art">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="hero-logo-wrap"><img src="assets/logo.png" alt="Design Mint brand logo"></div>
+          <div class="float-tag tag-top"><span class="tag-dot"></span> VISUAL IDENTITY</div>
+          <div class="float-tag tag-bottom">CREATIVE<br><b>WITHOUT THE NOISE.</b></div>
+          <div class="hero-glow"></div>
+        </div>
+      </div>
+      <div class="stats-row">
+        <div><strong>01</strong><span>Creative thinking</span></div><div><strong>02</strong><span>Bold visual design</span></div><div><strong>03</strong><span>Made for your audience</span></div><div class="stats-note">SMALL STUDIO.<br><b>BIG VISUAL ENERGY.</b></div>
+      </div>
+      <div class="section-heading">
+        <div><div class="eyebrow">SELECTED WORK</div><h2>Recent <em>creatives.</em></h2></div>
+        <button class="text-link" data-go="portfolio">View all work <span>↗</span></button>
+      </div>
+      <div class="work-grid home-grid">
+        <button class="work-card" data-image="football-camp.png"><img src="assets/football-camp.png" alt="Weekend football camp promotional poster"><span class="work-overlay"><small>SPORTS / PROMO</small><strong>Weekend Football Camp</strong><b>View design ↗</b></span></button>
+        <button class="work-card" data-image="class11-pcm.png"><img src="assets/class11-pcm.png" alt="Class 11 PCM coaching promotional poster"><span class="work-overlay"><small>EDUCATION / PROMO</small><strong>Class 11 PCM</strong><b>View design ↗</b></span></button>
+        <button class="work-card" data-image="burger-promo.jpg"><img src="assets/burger-promo.jpg" alt="Burger restaurant promotional creative"><span class="work-overlay"><small>FOOD / BRAND PROMO</small><strong>The Burger Hub</strong><b>View design ↗</b></span></button>
+      </div>
+      <div class="bottom-cta"><div><div class="eyebrow">HAVE AN IDEA?</div><h2>Let’s make it <em>mint.</em></h2><p>Tell me what you're building. We’ll make it look the part.</p></div><button class="button primary" data-go="contact">Let’s talk <span>↗</span></button></div>
+    </section>
+
+    <section class="page" id="page-portfolio">
+      <div class="page-intro"><div class="eyebrow">THE SHOWCASE</div><h1>Selected <em>work.</em></h1><p>A collection of concept creatives across education, sports, fashion and food. These are portfolio samples made to show different visual styles.</p></div>
+      <div class="filters" role="group" aria-label="Filter portfolio">
+        <button class="filter active" data-filter="all">All work <span>07</span></button><button class="filter" data-filter="education">Education</button><button class="filter" data-filter="sports">Sports</button><button class="filter" data-filter="fashion">Fashion</button><button class="filter" data-filter="food">Food</button><button class="filter" data-filter="thumbnail">Thumbnails</button>
+      </div>
+      <div class="work-grid portfolio-grid">
+        <button class="work-card" data-category="sports" data-image="football-camp.png"><img src="assets/football-camp.png" alt="Weekend Football Camp poster"><span class="work-overlay"><small>SPORTS / POSTER</small><strong>Weekend Football Camp</strong><b>View design ↗</b></span></button>
+        <button class="work-card" data-category="education" data-image="class11-pcm.png"><img src="assets/class11-pcm.png" alt="Class 11 PCM poster"><span class="work-overlay"><small>EDUCATION / POSTER</small><strong>Class 11 PCM</strong><b>View design ↗</b></span></button>
+        <button class="work-card" data-category="thumbnail" data-image="trigonometry.png"><img src="assets/trigonometry.png" alt="Trigonometry five-minute revision thumbnail"><span class="work-overlay"><small>EDUCATION / THUMBNAIL</small><strong>Trigonometry in 5 Min</strong><b>View design ↗</b></span></button>
+        <button class="work-card" data-category="education" data-image="parent-teacher-meeting.jpg"><img src="assets/parent-teacher-meeting.jpg" alt="Parent teacher meeting poster"><span class="work-overlay"><small>EDUCATION / EVENT</small><strong>Parent–Teacher Meeting</strong><b>View design ↗</b></span></button>
+        <button class="work-card" data-category="fashion" data-image="streetwear-ad.jpg"><img src="assets/streetwear-ad.jpg" alt="Voltura streetwear campaign concept"><span class="work-overlay"><small>FASHION / AD CONCEPT</small><strong>Voltura Streetwear</strong><b>View design ↗</b></span></button>
+        <button class="work-card" data-category="food" data-image="burger-promo.jpg"><img src="assets/burger-promo.jpg" alt="The Burger Hub food promotional poster"><span class="work-overlay"><small>FOOD / PROMO</small><strong>The Burger Hub</strong><b>View design ↗</b></span></button>
+        <button class="work-card" data-category="thumbnail" data-image="class11-pcm.png"><img src="assets/class11-pcm.png" alt="Class 11 PCM YouTube thumbnail concept"><span class="work-overlay"><small>EDUCATION / THUMBNAIL</small><strong>PCM New Batch</strong><b>View design ↗</b></span></button>
+      </div>
+      <p class="portfolio-note"><span>✳</span> Portfolio note: These visuals are concept samples. Brand names, contact details and offer information inside sample artwork may be illustrative.</p>
+    </section>
+
+    <section class="page" id="page-services">
+      <div class="page-intro"><div class="eyebrow">WHAT I CAN CREATE</div><h1>Design for your <em>next move.</em></h1><p>Choose the kind of creative that helps your business, channel or event communicate clearly.</p></div>
+      <div class="service-list">
+        <article class="service-card"><div class="service-number">01</div><div class="service-symbol">▣</div><div><h2>Promotional Posters</h2><p>Offers, events, launches, coaching batches and local business promotions designed to catch attention fast.</p><div class="chips"><span>Offers</span><span>Events</span><span>Business promos</span></div></div><button class="round-arrow" data-service="Promotional Posters">↗</button></article>
+        <article class="service-card"><div class="service-number">02</div><div class="service-symbol">▶</div><div><h2>YouTube Thumbnails</h2><p>Strong hierarchy, expressive visuals and readable titles that make the video topic instantly clear.</p><div class="chips"><span>Education</span><span>Gaming</span><span>Creator content</span></div></div><button class="round-arrow" data-service="YouTube Thumbnails">↗</button></article>
+        <article class="service-card"><div class="service-number">03</div><div class="service-symbol">✳</div><div><h2>Social Media Creatives</h2><p>Feed posts and campaign graphics that give your profile a more consistent, polished look.</p><div class="chips"><span>Instagram posts</span><span>Campaigns</span><span>Brand promos</span></div></div><button class="round-arrow" data-service="Social Media Creatives">↗</button></article>
+        <article class="service-card"><div class="service-number">04</div><div class="service-symbol">◈</div><div><h2>Brand & Product Ads</h2><p>Product-led layouts for fashion, food and small businesses, focused on making the offer easy to understand.</p><div class="chips"><span>Product ads</span><span>Food</span><span>Fashion</span></div></div><button class="round-arrow" data-service="Brand & Product Ads">↗</button></article>
+      </div>
+      <div class="inline-cta"><div><h2>Not sure what you need?</h2><p>Send the goal and platform. We’ll figure out the right format.</p></div><button class="button primary" data-go="contact">Ask about a project ↗</button></div>
+    </section>
+
+    <section class="page" id="page-pricing">
+      <div class="page-intro"><div class="eyebrow">SIMPLE START</div><h1>First project, <em>special price.</em></h1><p>Introductory rates for the first client projects. Final pricing depends on complexity, copy and revision needs.</p></div>
+      <div class="pricing-grid">
+        <article class="price-card"><div class="price-top"><span>01 / QUICK START</span><span class="price-icon">▣</span></div><h2>Single Creative</h2><p>One focused design for a single post, offer or announcement.</p><div class="price">₹199 <small>/ starting at</small></div><ul><li>1 poster or social post</li><li>One platform size</li><li>Up to 2 small revisions</li><li>PNG/JPG final file</li></ul><button class="button secondary full" data-service="Single Creative">Choose this <span>↗</span></button></article>
+        <article class="price-card featured"><div class="popular">FIRST-CLIENT OFFER</div><div class="price-top"><span>02 / CREATOR PICK</span><span class="price-icon">▶</span></div><h2>Thumbnail Pack</h2><p>Consistent, attention-grabbing visuals for your next uploads.</p><div class="price">₹299 <small>/ 2 thumbnails</small></div><ul><li>2 YouTube thumbnails</li><li>Consistent visual direction</li><li>Up to 2 small revisions each</li><li>Web-ready JPG/PNG files</li></ul><button class="button primary full" data-service="Thumbnail Pack">Choose this <span>↗</span></button></article>
+        <article class="price-card"><div class="price-top"><span>03 / BUSINESS</span><span class="price-icon">✳</span></div><h2>Promo Bundle</h2><p>A small set of creatives for a campaign or business page.</p><div class="price">₹499 <small>/ 3 creatives</small></div><ul><li>3 matching promotional designs</li><li>One campaign direction</li><li>Up to 2 small revisions each</li><li>PNG/JPG final files</li></ul><button class="button secondary full" data-service="Promo Bundle">Choose this <span>↗</span></button></article>
+      </div>
+      <p class="pricing-disclaimer">Introductory sample rates, not a binding quote. Complex edits, urgent delivery, extra sizes and source files may cost extra. Confirm scope and delivery date before starting.</p>
+    </section>
+
+    <section class="page" id="page-about">
+      <div class="page-intro"><div class="eyebrow">THE STUDIO</div><h1>Small details.<br><em>Strong impressions.</em></h1><p>Design Mint is an independent creative design page focused on making digital content look clear, confident and memorable.</p></div>
+      <div class="about-layout"><div class="about-logo"><img src="assets/logo.png" alt="Design Mint logo"></div><div class="about-copy"><div class="eyebrow">THE DESIGN MINT APPROACH</div><h2>Good design isn't just decoration.</h2><p>It helps people understand what matters. Every creative starts with the message, the audience and the platform it needs to work on.</p><div class="about-points"><div><span>01</span><p><b>Clear first.</b><small>Readable headlines and an obvious focal point.</small></p></div><div><span>02</span><p><b>Made for the platform.</b><small>Designs planned for where they'll be seen.</small></p></div><div><span>03</span><p><b>Collaborative process.</b><small>Your details and feedback guide the final creative.</small></p></div></div><button class="button primary" data-go="contact">Work with Design Mint ↗</button></div></div>
+    </section>
+
+    <section class="page" id="page-contact">
+      <div class="page-intro"><div class="eyebrow">LET'S MAKE SOMETHING</div><h1>Got a project in <em>mind?</em></h1><p>Share a few details on Instagram and I’ll get back to you about the next steps.</p></div>
+      <div class="contact-layout"><div class="contact-main"><div class="contact-icon">↗</div><h2>Let’s talk on Instagram.</h2><p>Send the type of design you need, your deadline and any text or references you already have.</p><a class="button primary" href="https://www.instagram.com/design_mint.in/" target="_blank" rel="noopener">Open @design_mint.in <span>↗</span></a><div class="contact-handle"><span>INSTAGRAM HANDLE</span><b>@design_mint.in</b><button id="copyHandle" class="copy-button">Copy handle</button></div></div><div class="contact-side"><div class="eyebrow">TO GET STARTED, SHARE</div><div class="contact-check"><span>01</span><div><b>What you need</b><small>Poster, thumbnail, or social creative</small></div></div><div class="contact-check"><span>02</span><div><b>Where it will be used</b><small>Instagram, YouTube, print, etc.</small></div></div><div class="contact-check"><span>03</span><div><b>Your deadline & budget</b><small>So the scope is clear from day one</small></div></div><div class="contact-note">No brief yet? That's okay — a simple idea is enough to start.</div></div></div>
+      <div class="faq"><div><div class="eyebrow">QUICK ANSWERS</div><h2>Before we start.</h2></div><details><summary>What do you need from me?</summary><p>Your text, any logo or product photos, preferred size and a reference if you have one.</p></details><details><summary>Can I request changes?</summary><p>Yes. Each package includes a limited number of small revisions. Major redesigns or new directions may be quoted separately.</p></details><details><summary>How do I receive the design?</summary><p>Final designs are supplied as digital PNG or JPG files unless another format is agreed beforehand.</p></details></div>
+    </section>
+
+    <footer class="footer"><span>© 2026 DESIGN MINT</span><span>DESIGNED TO STAND OUT <b>✳</b></span><a href="https://www.instagram.com/design_mint.in/" target="_blank" rel="noopener">@design_mint.in ↗</a></footer>
+  </main>
+</div>
+
+<div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button><img id="lightboxImage" src="" alt="Selected portfolio sample"><div id="lightboxCaption"></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
